@@ -1,0 +1,34 @@
+# in the templates via {{ site.myvariable }}.
+title: Portfolio
+email: oswaldblassou@yahoo.fr
+description: This website is my Portfolio, i will use this website to custom and report all my project.
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: oswaldblassou
+github_username:  oswaldb22
+linkedin_username: oswald-blassou-561331ba 
+#Learning Seesion Training :
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "my-site"
+  -
+    scope:
+      path: "projects"
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "project" # overrides previous default layout
+      author: "Mr. BLASSOU Oswald"
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
