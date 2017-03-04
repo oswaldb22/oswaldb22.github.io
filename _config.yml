@@ -17,7 +17,7 @@ title: canos
 email: oswaldblassou@yahoo.fr
 description: Hi, I'm Oswald BLASSOU a french student in Computer Science.
 
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: oswaldb22
 github_username:  oswaldb22
