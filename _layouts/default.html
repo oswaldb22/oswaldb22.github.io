@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/basic.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <title> PortFolio</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>Portfolio</h1>
+        {% include nav.html navclass='nav-top' %}
+    </header>
+
+    {{content}}
+
+
+    <footer>
+     {% include nav.html navclass='nav-bot' %}
+    </footer>
+
+  </body>
+</html>

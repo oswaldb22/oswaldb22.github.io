@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h1>News</h1>
+
+<ul>
+<ol>
+  {% for n in site.posts %}
+    <li>
+      <a href="{{site.baseurl}}{{n.url}}"> {{n.title}}</a>
+    </li>
+    <p>{{n.date}}</p>
+    <p>Categorie : {{n.categories}}</p>
+  {%endfor%}
+</ol>
+</ul>
