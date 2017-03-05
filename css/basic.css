@@ -13,9 +13,7 @@ body{
   width:100%;
 }
 
-header
-{
-    background-color: #99B5DD;
+header{
     width: 950px;
     height: 195px;
 }
@@ -33,13 +31,3 @@ header
 .nav-top{
 
 }
-
-
-@bg: #24252D;
-@bg2: #2f313b;
-@font: #CACACC;
-@subfont: #696A6F;
-@pink: #EB4888;
-@green: #24D05A;
-@yellow: #E9BC3F;
-@blue: #10A2F5;
