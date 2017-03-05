@@ -8,16 +8,22 @@ body{
 }
 
 #bar{
-  background-color:#3873A3;
+  background-color:#F60831;
   height:10px;
   width:100%;
 }
 
-.header
+header
 {
     background-color: #99B5DD;
-    width: 100%;
-    height: 60px;
+    width: 950px;
+    height: 195px;
+}
+
+#homeh1{
+  height:113px:
+  width:593px;
+  font-size: 40px;
 }
 
 .current{
