@@ -19,7 +19,7 @@ description: Hi, I'm Oswald BLASSOU a french student in Computer Science.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: oswaldb22
+twitter_username: oswaldblassou
 github_username:  oswaldb22
 
 # Build settings
