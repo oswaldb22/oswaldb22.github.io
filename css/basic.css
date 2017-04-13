@@ -1,28 +1,61 @@
+html,body{
+  width: 100%
+}
+
 body{
   margin: auto;
   padding: inherit;
 
-  background-image: (http://www.e-evasion.com/wp-content/uploads/2016/06/Paris-Noir-et-blanc-2.jpg);
+  /*background-image: url(http://www.e-evasion.com/wp-content/uploads/2016/06/Paris-Noir-et-blanc-2.jpg);*/
   background-color: #fefbf7;
-  font-family: 'Bitter', serif;
+  font-family: 'Bitter', serif
 }
 
 #bar{
-  background-color:#F60831;
+  background-color:red;
   height:10px;
   width:100%;
 }
 
-header{
-    width: 950px;
-    height: 195px;
+header h1{
+  height:195px:
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  font-size: 50pt;
+  text-align: center;
+
 }
 
-#homeh1{
-  height:113px:
-  width:593px;
-  font-size: 40px;
+.home{
+  display: block;
+  text-align: left;
+  text-size-adjust:100%;
 }
+
+.post{
+  height:195px:
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+.post h1{
+  font-size: 50pt;
+  margin-bottom: 5px;
+}
+
+.post p{
+  color: red;
+  font-size: 20pt;
+}
+
+.post_content{
+  font-size:  15pt;
+  text-align: left;
+}
+
 
 .current{
   background-color: #99B5DD;
@@ -30,4 +63,8 @@ header{
 
 .nav-top{
 
+}
+
+footer{
+  border-bottom: 10px;
 }
