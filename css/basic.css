@@ -55,6 +55,12 @@ body{
     text-align: center;
 }
 
+#postsize{
+  font-family: 'Bitter', serif;
+  font-style: normal;
+  font-size: 10px;
+}
+
 .home{
   display: block;
   text-align: left;
@@ -76,7 +82,7 @@ body{
 .post p{
   color: red;
   font-size: 20pt;
-  
+
 }
 
 .post_content{
