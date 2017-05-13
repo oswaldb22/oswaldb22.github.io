@@ -2,17 +2,20 @@
 layout: default
 ---
 <header>
-  <h1>News</h1>
-  <!--  {% include nav.html navclass='nav-top' %}-->
+  <h1 class="title">News</h1>
 </header>
-<ul>
-<ol>
-  {% for n in site.posts %}
-    <li>
-      <a href="{{site.baseurl}}{{n.url}}"> {{n.title}}</a>
-    </li>
-    <p>{{n.date}}</p>
-    <p>Categorie : {{n.categories}}</p>
-  {%endfor%}
-</ol>
-</ul>
+<div id="body">
+  <div id="wrap">
+    <ul>
+      <ol>
+        {% for n in site.posts %}
+          <li>
+            <a href="{{site.baseurl}}{{n.url}}"> {{n.title}}</a>
+          </li>
+          <p>{{n.date}}</p>
+          <p>Categorie : {{n.categories}}</p>
+        {%endfor%}
+      </ol>
+    </ul>
+  </div>
+</div>
