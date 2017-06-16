@@ -12,6 +12,24 @@ layout: default
       Passionné depuis mon plus jeune enfance par l'informatique j'ai décidé d'en faire mon futur métier.</br></br>
       Je suis très passionné par les nouvelles technologies et passe mon temps à développer de nouveau projet.
       </p>
-      <p>This website will look like <a href="https://xd.adobe.com/view/797cdd34-1c08-417e-af6a-7b0f11fd2990/" alt="Adobe XD Design v1" target="_blank">this (beta version)</a></p>
+      <p>This website will look like <a href="https://xd.adobe.com/view/797cdd34-1c08-417e-af6a-7b0f11fd2990/" alt="Adobe XD Design v1" target="_blank">
+      this (beta version)</a></p></br>
+
+      <div id="quote">
+      </div>
+      <script>
+      var quotes = [
+      "Computer Science is no more about computers than astronomy is about telescopes -- Edsger W. Dijkstra",
+      "Machines should work. People should think -- Richard Hamming",
+      "The most technologically efficient machine that man has ever invented is the book -- Northrop Frye",
+      "One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man. -- Elbert Hubbard",
+      "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.-- Colin Powell"
+      ];
+      len=quotes.length;
+      var x = Math.floor((Math.random() * len) + 0);
+      document.getElementById('quote').innerHTML = "  ~  "+ quotes[x] +"  ~  ";
+      </script>
+
+    </br>
   </div>
 </div>
