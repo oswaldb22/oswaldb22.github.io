@@ -2,8 +2,14 @@
   <ul class="nav {{%include.navclass%}}">
   <li><a href="{{site.baseurl}}/index.html"class="{%if page.url == '/index.html'%}current{% endif %}">Home</a></li>
   <li><a href="{{site.baseurl}}/news.html"class="{%if page.url == '/news.html'%}current{% endif %}">News</a></li>
-  <li><a href="http://www.twitter.com/{{site.twitter_username}}" target="_blank">Twitter</a></li>
-  <li><a href="http://www.github.com/{{site.github_username}}" target="_blank">Github</a></li>
-  <li><a href="http://www.linkedin.com/in/{{site.twitter_username}}" target="_blank">LinkedIn</a></li>
+  <li><a href="http://www.twitter.com/{{site.twitter_username}}" target="_blank">
+    <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+    </a></li>
+  <li><a href="http://www.github.com/{{site.github_username}}" target="_blank">
+    <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+    </a></li>
+  <li><a href="http://www.linkedin.com/in/{{site.twitter_username}}" target="_blank">
+    <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a></li>
   </ul>
 </nav>

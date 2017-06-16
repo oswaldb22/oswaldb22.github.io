@@ -7,13 +7,16 @@ layout: default
     <header>
       <h1 class="title">Oswald BLASSOU</h1>
     </header>
-      <p> Bonjour, je suis étudiant en ingénerie informatique à l'EPITA.</br></br>
-      Passionné depuis ma plus jeune enfance par l'informatique j'ai décidé d'en faire mon futur métier.</br></br>
+      <div id="presentation">
+      <p> Bonjour, je suis étudiant en ingénerie informatique à l'EPITA.</p>
+      <p>Passionné depuis ma plus jeune enfance par l'informatique j'ai décidé d'en faire mon futur métier.</br>
       Je suis très passionné par les nouvelles technologies et passe mon temps à développer de nouveau projet.
       </p>
-      <p>This website will look like <a href="https://xd.adobe.com/view/797cdd34-1c08-417e-af6a-7b0f11fd2990/" alt="Adobe XD Design v1" target="_blank">
-      this (beta version)</a></p></br>
+      </div>
 
+      <div id="contact">
+      {% include links2.html navclass='nav-bot' %}
+      </div>
       <div id="quote">
       </div>
       <script>
@@ -26,6 +29,8 @@ layout: default
       ];
       len=quotes.length;
       var x = Math.floor((Math.random() * len) + 0);
-      document.getElementById('quote').innerHTML = quotes[x];
+      document.getElementById('quote').innerHTML = '"'+quotes[x]+'"';
       </script>
       </br>
+<!--      <p>This website will look like <a href="https://xd.adobe.com/view/797cdd34-1c08-417e-af6a-7b0f11fd2990/" alt="Adobe XD Design v1" target="_blank">
+      this (beta version)</a></p></br>
