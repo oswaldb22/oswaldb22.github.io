@@ -7,7 +7,7 @@ body{
 /*  background-image: url("http://www.e-evasion.com/wp-content/uploads/2016/06/Paris-Noir-et-blanc-2.jpg"); */
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #fefbf7;*/
+  /*background-color: #fefbf7;*/
   font-family: 'Bitter', serif;
 
 
@@ -105,8 +105,18 @@ body{
   background-color: #99B5DD;
 }
 
-.nav-top{
 
+
+.nav-bot{
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+.nav-bot li{
+  float: left;
 }
 
 footer{

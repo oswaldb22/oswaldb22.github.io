@@ -13,9 +13,13 @@
   </head>
   <body>
     <div id="bar"></div>
-      {{content}}
-    <footer>
-     {% include links.html navclass='nav-bot' %}
-    </footer>
+    <div id="body">
+      <div id="wrap">
+        {{content}}
+      </div>
+      <footer>
+       {% include links.html navclass='nav-bot' %}
+      </footer>
+    </div>
   </body>
 </html>
