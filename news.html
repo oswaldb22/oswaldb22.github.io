@@ -6,16 +6,18 @@ layout: default
 </header>
 <div id="body">
   <div id="wrap">
-    <ul>
-      <ol>
-        {% for n in site.posts %}
-          <li>
-            <a href="{{site.baseurl}}{{n.url}}"> {{n.title}}</a>
-          </li>
-          <p>{{n.date}}</p>
-          <p>Categorie : {{n.categories}}</p>
-        {%endfor%}
-      </ol>
-    </ul>
+    <div id="list-img">
+      <ul>
+        <ol>
+          {% for n in site.posts %}
+            <ul>
+              <a href="{{site.baseurl}}{{n.url}}"><img id="" src="/assets/image/{{n.icon}}" alt="icon"></a>
+            </ul>
+            <p>{{n.title}}, {{n.date}}</p>
+            <p>Categorie : {{n.categories}}</p>
+          {%endfor%}
+        </ol>
+      </ul>
+    </div>
   </div>
 </div>

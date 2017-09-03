@@ -4,15 +4,11 @@ html,body{
 }
 
 body{
-/*  background-image: url("http://www.e-evasion.com/wp-content/uploads/2016/06/Paris-Noir-et-blanc-2.jpg"); */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  /*background-color: #fefbf7;*/
   font-family: 'Bitter', serif;
 }
 
 #bar{
-  background-color:red;
+  background-color:#ff3c51;
   height:7px;
   width:100%;
 }
@@ -20,14 +16,15 @@ body{
 #body {
   width: 750px;
   margin: 0px auto;
-  font-size: 25px;
+  font-size: 20px;
+  text-align: center;
 }
 
 
 #wraper {
-  width: 590px;
+  width: 600px;
   margin: 0px auto;
-  text-align: center;
+  //text-align: center;
 }
 
 
@@ -39,8 +36,27 @@ body{
 }
 
 #presentation{
-  margin-bottom: 35px;
+  margin: 0px auto;
 }
+
+.newpage{
+  text-align: center;
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+
+.newpage li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+  }
 
 #contact{
   text-align: center;
@@ -48,7 +64,6 @@ body{
 }
 
 #quote{
-  font-family: 'Shadows Into Light', sans-serif;
   font-size: 17px;
   font-style:italic;
   text-decoration-color: grey;
@@ -56,11 +71,10 @@ body{
   }
 
 .title{
-
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 
-  font-size: 60px;
+  font-size: 55px;
   font-weight:bold;
   text-align: center;
 }
@@ -77,6 +91,11 @@ body{
   font-family: 'Bitter', serif;
   font-style: normal;
   font-size: 10px;
+}
+
+
+#list-img ul{
+    float: left;
 }
 
 .home{
@@ -120,7 +139,6 @@ body{
   margin: 0px auto;
   text-align: center;
   font-size: 15px;
-
 }
 
 .nav-bot li{
