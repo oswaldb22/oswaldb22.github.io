@@ -62,6 +62,8 @@ body{
   text-align: center;
 }
 
+
+
 #pages{
   margin: 0px auto;
   //text-align: center;
@@ -73,8 +75,20 @@ body{
 }
 
 #contact{
-  //text-align: center;
   margin-bottom: 35px;
+  margin-top: 15px;
+}
+
+#contact ul{
+  width:100%;
+  text-align:center;
+}
+
+#contact li {
+  display:inline-block;
+  *display:inline; /*IE7*/
+  *zoom:1; /*IE7*/
+  margin-right:10px;
 }
 
 #quote{
@@ -149,18 +163,8 @@ body{
 
 
 .nav-bot{
-  //width: 50%;
   margin: 0px auto;
-  text-align: right;
   font-size: 15px;
-}
-
-.nav-bot li{
-  float: left;
-}
-
-nav .nav-bot ul {
-  text-align: center;
 }
 
 footer{
