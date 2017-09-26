@@ -171,3 +171,35 @@ footer{
   border-bottom: 10px;
   text-align: center;
 }
+
+
+@media only screen and (max-width: 760px) {
+    body {
+        width: 100%;
+        background-color: lightgreen;
+    }
+
+    #bar {
+      //background-color: yellow;
+      width: 100%;
+    }
+
+    #body {
+      width: calc(100% - 40px);
+      padding: 0px 20px;
+
+    }
+
+    #presentation{
+      //color: green;
+      width: auto;
+    }
+
+    #wraper {
+      width: 100%;
+    }
+
+    header h1{
+      font-size: 17px;
+    }
+}
