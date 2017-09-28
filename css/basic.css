@@ -17,7 +17,6 @@ body{
   width: 750px;
   margin: 0px auto;
   font-size: 20px;
-  //text-align: center;
 }
 
 
@@ -27,16 +26,9 @@ body{
   text-align: justify;
 }
 
-
-#pic{
-  height: 100px;
-  width: 100px;
-  margin-left: auto;
-  border-radius: 50%
-}
-
-#presentation{
-  //margin: 0px auto;
+header{
+  margin-top: 50px;
+  margin-bottom: 35px;
 }
 
 .newpage{
@@ -62,16 +54,9 @@ body{
   text-align: center;
 }
 
-
-
 #pages{
   margin: 0px auto;
-  //text-align: center;
   font-size: 15px;
-}
-
-#pages li{
-  //float: left;
 }
 
 #contact{
@@ -96,35 +81,15 @@ body{
   font-style:italic;
   text-decoration-color: grey;
   text-align: center;
-  }
+}
 
 .title{
-  margin-top: 50px;
-  margin-bottom: 35px;
 
   font-size: 55px;
   font-weight:bold;
   text-align: center;
 }
 
-.title p{
-    font-size: 30px;
-    font-weight:regular;
-    text-align: center;
-}
-
-
-
-#postsize{
-  font-family: 'Bitter', serif;
-  font-style: normal;
-  font-size: 10px;
-}
-
-
-#list-img ul{
-    float: left;
-}
 
 .home{
   display: block;
@@ -139,20 +104,10 @@ body{
 }
 
 
-.post h1{
-  font-size: 50pt;
-  margin-bottom: 5px;
-}
-
-.post p{
-  color: red;
-  font-size: 20pt;
-
-}
-
 .post_content{
-  font-size:  15pt;
-  text-align: left;
+  
+  font-size:  20px;
+
 }
 
 
@@ -172,6 +127,9 @@ footer{
   text-align: center;
 }
 
+.subtitle{
+  text-align: center;
+}
 
 @media only screen and (max-width: 760px) {
     body {

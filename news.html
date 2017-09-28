@@ -4,20 +4,20 @@ layout: default
 <header>
   <h1 class="title">News</h1>
 </header>
-<div id="body">
-  <div id="wrap">
-    <div id="list-img">
-      <ul>
-        <ol>
-          {% for n in site.posts %}
-            <ul>
-              <a href="{{site.baseurl}}{{n.url}}"><img id="" src="/assets/image/{{n.icon}}" alt="icon"></a>
-            </ul>
-            <p>{{n.title}}, {{n.date}}</p>
+
+<div id="list-img">
+  <ul>
+    <ol>
+      {% for n in site.posts %}
+        <ul>
+          <li>
+            <a href="{{site.baseurl}}{{n.url}}"><i class="fa fa-link" aria-hidden="true"></i></a>
+            <p>{{n.title}}</p>
+            <p>Date : {{n.date}}</p>
             <p>Categorie : {{n.categories}}</p>
-          {%endfor%}
-        </ol>
-      </ul>
-    </div>
-  </div>
+          </li>
+        </ul>
+      {%endfor%}
+    </ol>
+  </ul>
 </div>

@@ -3,13 +3,14 @@ layout: default
 ---
 
   <header>
-    <h1 class="title">{{page.title}}
-      <p>Write by <strong>{{page.author}}<strong></p>
-      <p>{{page.dateF}}</p></h1>
-  </header>
-
-  <div id="body">
-    <div id="wrap">
-      {{content}}
+    <h1 class="title">{{page.title}}</h1>
+    <div class="subtitle">
+      <p>Write by <strong>{{page.author}}</strong></p>
+      <p>{{page.dateF}}</p>
     </div>
+  </header>
+  <div class="post_content">
+      {{content}}
   </div>
+  </div>
+</div>
