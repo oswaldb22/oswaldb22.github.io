@@ -5,19 +5,22 @@ layout: default
   <h1 class="title">News</h1>
 </header>
 
-<div id="list-img">
-  <ul>
-    <ol>
-      {% for n in site.posts %}
-        <ul>
-          <li>
-            <a href="{{site.baseurl}}{{n.url}}"><i class="fa fa-link" aria-hidden="true"></i></a>
-            <p>{{n.title}}</p>
-            <p>Date : {{n.date}}</p>
-            <p>Categorie : {{n.categories}}</p>
-          </li>
-        </ul>
-      {%endfor%}
-    </ol>
-  </ul>
+<div class="grid-news">
+  {% for n in site.posts %}
+    <div class="grid-news-item">
+      <a href="{{site.baseurl}}{{n.url}}">
+    <!--    <img src="http://via.placeholder.com/300x200" alt="">
+    -->
+        <img class="grid-news-item-img"
+        src="/assets/image/{{n.icon}}" alt="Thumbnail">
+
+      </a>
+      <p>{{n.title}}</p>
+      <p>{{n.dateF}}</p>
+      <p>{{n.categories}}</p>
+    </div>
+  {%endfor%}
+</div>
+<div class="footer-news">
+  Vous trouverez également plusieurs informations sur mon compte LinkedIn
 </div>

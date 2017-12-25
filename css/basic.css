@@ -21,7 +21,7 @@ body{
 
 
 #wraper {
-  width: 600px;
+  width: 700px;
   margin: 0px auto;
   text-align: justify;
 }
@@ -105,10 +105,12 @@ header{
 
 
 .post_content{
-  
   font-size:  20px;
-
 }
+
+.post_content > p img {
+  width: 100%;
+} 
 
 
 .current{
@@ -130,6 +132,36 @@ footer{
 .subtitle{
   text-align: center;
 }
+
+.grid-news {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(200px, auto);
+
+}
+
+.grid-news-item {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid-news-item:hover{
+
+
+}
+
+.grid-news-item-img {
+  width: 350px;
+  height: 200px;
+
+}
+
+.footer-news{
+  margin: 2em;
+  text-align: center;
+}
+
 
 @media only screen and (max-width: 760px) {
     body {
