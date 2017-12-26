@@ -27,8 +27,22 @@ body{
 }
 
 header{
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 35px;
+}
+
+#home {
+    border-bottom: solid;
+    border-color: grey;
+    margin-top: 10px;
+}
+
+.profile_picture{
+  width: 200px;
+  height: 200px;
+  display: table;
+  margin: 0 auto;
+
 }
 
 .newpage{
@@ -83,6 +97,8 @@ header{
   text-align: center;
 }
 
+/*--------------------NEWS PAGE----------------------*/
+
 .title{
 
   font-size: 55px;
@@ -132,7 +148,6 @@ footer{
 .subtitle{
   text-align: center;
 }
-
 .grid-news {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -156,6 +171,13 @@ footer{
   height: 200px;
 
 }
+
+.grid-news-item-content{
+  margin: 10px;
+  text-align: center;
+}
+
+
 
 .footer-news{
   margin: 2em;

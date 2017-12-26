@@ -2,8 +2,10 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-12-23 00:41:21 +0100
-categories: jekyll update
+categories: Project
 author: Canos
+icon: viva.jpg
+
 ---
 
 This is only for testing purpose !!

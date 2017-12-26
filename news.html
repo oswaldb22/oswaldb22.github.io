@@ -9,15 +9,13 @@ layout: default
   {% for n in site.posts %}
     <div class="grid-news-item">
       <a href="{{site.baseurl}}{{n.url}}">
-    <!--    <img src="http://via.placeholder.com/300x200" alt="">
-    -->
         <img class="grid-news-item-img"
         src="/assets/image/{{n.icon}}" alt="Thumbnail">
-
       </a>
-      <p>{{n.title}}</p>
-      <p>{{n.dateF}}</p>
-      <p>{{n.categories}}</p>
+      <div class="grid-news-item-content">
+        <p>{{n.title}}</p>
+        <p>{{n.categories}}</p>
+      </div>
     </div>
   {%endfor%}
 </div>
