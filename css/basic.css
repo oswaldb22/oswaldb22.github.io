@@ -14,27 +14,30 @@ body{
 }
 
 #body {
-  width: 750px;
   margin: 0px auto;
   font-size: 20px;
 }
 
 
 #wraper {
-  width: 700px;
+  width: 750px;
   margin: 0px auto;
   text-align: justify;
 }
 
 header{
-  margin-top: 30px;
-  margin-bottom: 35px;
+  margin-bottom: 1em;
 }
 
-#home {
-    border-bottom: solid;
-    border-color: grey;
-    margin-top: 10px;
+.bg-image{
+  background: #333 url("http://museocom.fr/wp-content/uploads/2016/06/louvres-632905_1920.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: -1;
 }
 
 .profile_picture{
@@ -42,7 +45,28 @@ header{
   height: 200px;
   display: table;
   margin: 0 auto;
+  box-shadow: 2px 1px 32px 4px rgba(100,100,100,1);
 
+}
+
+#homeTitle {
+    border-bottom: solid;
+    border-color: grey;
+    padding-bottom: 0.5em;
+    margin-top: 10px;
+    color: white;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+}
+
+#presentation{
+  width: auto;
+  text-align: center;
+}
+
+#resume{
+  margin: 10px auto;
+  text-align: center;
+  text-decoration-style: bold;
 }
 
 .newpage{
@@ -63,10 +87,6 @@ header{
     height: 1.6em;
     border-radius: 4px;
   }
-#resume{
-  margin: 10px auto;
-  text-align: center;
-}
 
 #pages{
   margin: 0px auto;
