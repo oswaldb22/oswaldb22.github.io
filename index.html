@@ -12,17 +12,43 @@ layout: default
     </header>
       <div id="presentation">
         <p>
-          Bonjour, je suis étudiant en ingénerie informatique à l'EPITA.
-          Passionné depuis ma plus jeune enfance par l'informatique j'ai décidé
-          d'en faire mon futur métier.</br>
-          Je suis très passionné par les nouvelles technologies et passe mon temps
-          à développer de nouveau projet.</br>
+          Bonjour, je m'appelle Oswald, j'habite Paris et
+          je suis étudiant en ingénerie informatique à EPITA.
+        </p>
+        <p>
+          Je suis très passionné par l'idée de concretiser de nouveau projet.
+          Vous pourrez ainsi retrouver mes <a href="/news">projets</a> et mes quelques
+          citations preférées.
+        </br>
         </p>
       </div>
+
       <div id="resume">
-        <p>CV disponible <a href="./assets/doc/CV_Oswald_BLASSOU.pdf" target="_blank">
+        <p>Version imprimmable de mon parcours ? Voici mon cv  <a href="./assets/doc/CV_Oswald_BLASSOU.pdf" target="_blank">
           <i class="fa fa-arrow-down" aria-hidden="true"></i></a></p>
       </div>
+
+
+      <div class="recent_projets_title">
+        <h3>Projets Récents</h3>
+      </div>
+      <div id="recent_projets" class="">
+        <div class="grid-news">
+          {% for n in site.posts %}
+            <div class="grid-news-item">
+              <a href="{{site.baseurl}}{{n.url}}">
+                <img class="grid-news-item-img"
+                src="/assets/image/{{n.icon}}" alt="Thumbnail">
+              </a>
+              <div class="grid-news-item-content">
+                <p>{{n.title}}</p>
+                <p>{{n.categories}}</p>
+              </div>
+            </div>
+          {%endfor%}
+        </div>
+      </div>
+
       <div id="contact">
       {% include links2.html navclass='nav-bot' %}
       </div>
