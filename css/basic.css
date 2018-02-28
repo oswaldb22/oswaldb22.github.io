@@ -184,10 +184,12 @@ footer{
 
 .grid-news-item {
   text-align: center;
+
 }
 
 .grid-news-item:hover{
-  color: red;
+  text-decoration: none!important;
+  color: red!important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -202,7 +204,7 @@ footer{
   margin: 10px;
   text-align: left;
   font-size: 1em;
-
+  text-decoration: none!important;
 }
 
 
@@ -218,6 +220,12 @@ footer{
   margin-bottom: 2em;
 }
 
+#item-link{
+  color: inherit;
+}
+#item-link:hover{
+  text-decoration: none;
+}
 
 .post_content{
   font-size:  21px;

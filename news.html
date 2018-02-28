@@ -9,14 +9,14 @@ layout: default
   <div class="grid-news">
     {% for n in site.posts  %}
       <div class="grid-news-item">
-        <a href="{{site.baseurl}}{{n.url}}">
+        <a id="item-link" href="{{site.baseurl}}{{n.url}}">
           <img class="grid-news-item-img"
           src="/assets/image/{{n.icon}}" alt="Thumbnail">
+          <div class="grid-news-item-content">
+            <p>{{n.title}}</p>
+            <p>{{n.categories}}</p>
+          </div>
         </a>
-        <div class="grid-news-item-content">
-          <p>{{n.title}}</p>
-          <p>{{n.categories}}</p>
-        </div>
       </div>
     {%endfor%}
   </div>
