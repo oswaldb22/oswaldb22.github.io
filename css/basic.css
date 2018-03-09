@@ -15,7 +15,8 @@ font-family: 'Montserrat', sans-serif!important;
 
 #body {
   margin: 0px auto;
-  font-size: 20px;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 
@@ -38,6 +39,7 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
+  margin-top: 2em;
 }
 
 .profile_picture{
@@ -228,7 +230,7 @@ footer{
 }
 
 .post_content{
-  font-size:  21px;
+  font-size:  1.8rem;
   max-width: 760px;
   text-align: left;
   margin: 0 auto;
@@ -238,6 +240,7 @@ footer{
 
 .post_content > p img {
   width: 100%;
+  margin: 1.5em auto;
 } 
 
 .post_content > blockquote {
@@ -275,6 +278,10 @@ h4{
     padding: 0 1em;
   }
 
+  .bg-image{
+    margin-top: 0;
+  }
+
   header{
     padding: 0 !important;
   }
@@ -282,6 +289,8 @@ h4{
   .title{
     font-size: 2em;
   }
+
+
 
   #wraper {
     width: 100%;

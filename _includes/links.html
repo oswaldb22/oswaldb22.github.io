@@ -1,7 +1,9 @@
 <nav>
   <ul class="nav {{%include.navclass%}}">
-  <li><a href="{{site.baseurl}}/index.html"class="{%if page.url == '/index.html'%}current{% endif %}">Home</a></li>
-  <li><a href="{{site.baseurl}}/news.html"class="{%if page.url == '/news.html'%}current{% endif %}">News</a></li>
+  <li><a href="{{site.baseurl}}/index.html"class="{%if page.url == '/index.html'%}current{% endif %}">
+    <i class="fa fa-home fa-lg"></i>
+  </a></li>
+  <li><a href="{{site.baseurl}}/news.html"class="{%if page.url == '/news.html'%}current{% endif %}">Réalisations</a></li>
   <li><a href="http://www.twitter.com/{{site.twitter_username}}" target="_blank">
     <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
     </a></li>
