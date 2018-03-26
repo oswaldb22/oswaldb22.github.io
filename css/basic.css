@@ -11,7 +11,6 @@ font-family: 'Montserrat', sans-serif!important;
   background-color:#ff3c51;
   height:7px;
   width:100%;
-  display: none;
 }
 
 #body {
@@ -176,6 +175,11 @@ footer{
 .subtitle{
   text-align: center;
 }
+
+.subtitle > p {
+  margin: 5px auto;
+}
+
 .grid-news {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -220,6 +224,9 @@ footer{
 #post-header{
   min-height: 150px;
   margin-bottom: 2em;
+  font-family: pt sans,helvetica neue,Helvetica,Arial,sans-serif !important;
+  color: #455565;
+  padding: 2em;
 }
 
 #item-link{
@@ -236,6 +243,9 @@ footer{
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+
+  font-family: pt sans,helvetica neue,Helvetica,Arial,sans-serif;
+  color: #455565;
 }
 
 .post_content > p img {
@@ -247,16 +257,26 @@ footer{
   border-left: 5px solid red !important;
 }
 
+.post_content > p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
 blockquote{
   border-left: 5px solid #ff3c51 !important;
+}
 
+blockquote > p {
+  margin-top: 0 !important;
 }
 
 h2{
   margin-top: 30px !important;
   margin-bottom: 30px !important;
   padding-bottom: 10px !important;
-  border-bottom: 2px solid lightgrey !important;
 }
 
 h4{
