@@ -11,6 +11,7 @@ font-family: 'Montserrat', sans-serif!important;
   background-color:#ff3c51;
   height:7px;
   width:100%;
+  display: none;
 }
 
 #body {
@@ -275,6 +276,10 @@ h4{
 
   .mobile{
     padding: 0 1em;
+  }
+
+  #bar{
+      display: block;
   }
 
   .bg-image{
