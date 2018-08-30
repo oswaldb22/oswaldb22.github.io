@@ -34,24 +34,76 @@ body {
 .navbar > *{
   display: inline-block;
 }
-
 .navbar .home-logo img{
   height: 15px;
   width: auto;
-}
 
+}
 .navbar .navbar-links{
   float: right;
 }
-
 .navbar .navbar-links ul{
   list-style: none;
 }
-
 .navbar .navbar-links li{
-  float: right;
-  display: inline-block;
   margin-right: 1em;
+}
+.navbar .navbar-links .item{
+  margin-top: 1em;
+  opacity: 0;
+  text-align: left;
+  transition: opacity 0.7s ease-in-out;
+}
+.navbar .navbar-links .item.active{
+  opacity: 1;
+}
+
+
+/*burger icon*/
+
+.burger {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+}
+
+.burger span{
+  width: 100%;
+  height: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  display: block;
+  background: white;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.burger span::before, .burger span::after{
+  content: '';
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  background: white;
+  transition: transform 0.5s ease-in-out;
+}
+
+.burger span::before{
+  transform: translateY(-10px);
+}
+.burger span::after{
+  transform: translateY(10px);
+}
+
+.burger.active span{
+  background-color: transparent;
+}
+
+.burger.active span::before{
+  transform: translateY(0px) rotateZ(45deg);
+}
+.burger.active span::after{
+  transform: translateY(0px) rotateZ(-45deg);
 }
 
 /*header*/
