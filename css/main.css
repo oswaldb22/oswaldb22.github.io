@@ -16,7 +16,7 @@ body {
   background: #0E0E0E;
   color: white;
 
-  font-family: 'Barlow',-apple-system,BlinkMacSystemFont,'Segoe UI', Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',Helvetica, Arial,sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-rendering: optimizeLegibility;
 }
 
@@ -73,108 +73,26 @@ header .avatar img{
   border-radius: 50%;
 }
 
-header .text {
+header .text p {
   margin: 0 auto;
-  padding: 2em;
+  padding: 1em;
+  text-align: center;
+  font-size: x-large;
+}
+
+header .sub-text p{
+  font-size: 1.25em;
   text-align: center;
 }
 
+.link .button{
+  width: fit-content;
+  margin: 10vh  auto 0;
+  padding: 1em;
 
+  border: 1px solid red;
+  border-radius: 5px;
 
-/*animated header*/
+  cursor: pointer;
 
-.cd-intro{
-  text-align: center;
-}
-
-.cd-headline.rotate-1 .cd-words-wrapper {
-  display: inline-block;
-  perspective: 300px;
-}
-
-.cd-headline.rotate-1 b {
-  opacity: 0;
-  transform-origin: 50% 100%;
-  transform: rotateX(180deg);
-  display: inline-block;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.cd-headline.rotate-1 b.is-visible {
-  position: relative;
-  opacity: 1;
-  transform: rotateX(0deg);
-  animation: cd-rotate-1-in 1.2s;
-}
-
-.cd-headline.rotate-1 b.is-hidden {
-  transform: rotateX(180deg);
-  animation: cd-rotate-1-out 1.2s;
-}
-
-@keyframes cd-rotate-1-in {
-  0% {
-    transform: rotateX(180deg);
-    opacity: 0;
-  }
-  35% {
-    transform: rotateX(120deg);
-    opacity: 0;
-  }
-  65% {
-    opacity: 0;
-  }
-  100% {
-    transform: rotateX(360deg);
-    opacity: 1;
-  }
-}
-
-@keyframes cd-rotate-1-out {
-  0% {
-    transform: rotateX(0deg);
-    opacity: 1;
-  }
-  35% {
-    transform: rotateX(-40deg);
-    opacity: 1;
-  }
-  65% {
-    opacity: 0;
-  }
-  100% {
-    transform: rotateX(180deg);
-    opacity: 0;
-  }
-}
-
-
-
-/*clip*/
-.cd-headline.clip span {
-  display: inline-block;
-  padding: .2em 0;
-}
-.cd-headline.clip .cd-words-wrapper {
-  overflow: hidden;
-  vertical-align: top;
-}
-.cd-headline.clip .cd-words-wrapper::after {
-  /* line */
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 2px;
-  height: 100%;
-  background-color: red;
-}
-.cd-headline.clip b {
-  opacity: 0;
-}
-.cd-headline.clip b.is-visible {
-  opacity: 1;
-  white-space: nowrap;
 }
