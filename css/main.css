@@ -60,9 +60,16 @@ body {
   opacity: 0;
   text-align: left;
   transition: opacity 0.7s ease-in-out;
+  user-select: none;
+}
+
+.navbar .navbar-links .item:hover{
+  user-select: none;
+  cursor: default
 }
 .navbar .navbar-links .item.active{
   opacity: 1;
+  cursor: pointer;
 }
 
 
