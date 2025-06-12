@@ -1,7 +1,7 @@
 ---
 title: "ContentPot"
 description: "A web application for saving and sharing content using a stateless architecture and URL-encoded state."
-date: "Oct 04 2025"
+date: "Feb 14 2025"
 demoURL: "https://www.contentpot.app/"
 repoURL: "https://github.com/oswaldb22/content-pot"
 ---
