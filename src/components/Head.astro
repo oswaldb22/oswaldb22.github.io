@@ -9,6 +9,7 @@ import inter600 from "@fontsource/inter/files/inter-latin-600-normal.woff2";
 import lora400 from "@fontsource/lora/files/lora-latin-400-normal.woff2";
 import lora600 from "@fontsource/lora/files/lora-latin-600-normal.woff2";
 import { ViewTransitions } from "astro:transitions";
+import { SITE } from "@consts";
 
 interface Props {
   title: string;
@@ -17,6 +18,7 @@ interface Props {
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const rssURL = new URL("/rss.xml", Astro.site);
 
 const { title, description, image = "/nano.png" } = Astro.props;
 ---
@@ -37,6 +39,7 @@ const { title, description, image = "/nano.png" } = Astro.props;
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
+<link rel="alternate" type="application/rss+xml" title={`${SITE.NAME} RSS`} href={rssURL} />
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>
