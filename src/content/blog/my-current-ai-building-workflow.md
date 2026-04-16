@@ -8,7 +8,28 @@ I keep switching tools. The space moves fast and what works best changes every f
 
 ---
 
-### Mar 2026 — now
+### Apr 2026 — now
+
+**Main tools:** Codex, Claude
+
+- **Codex** — hard and challenging features, plus implementation work.
+- **Claude** — multi-session workflows.
+- **OpenClaw** - personal assitant
+- **Antigravity** - reading code
+
+**Currently testing:**
+
+- **Hermes Agent** - using on a raspberry pi
+- **Oh My Codex** - codex with superpowers
+
+**On the radar:** Conductor, Pi Agent
+
+- **Conductor** — investigating where it fits.
+- **Pi Agent** — investigating where it fits.
+
+---
+
+### Mar 2026
 
 **Main tools:** Claude Code, Codex, Antigravity
 
