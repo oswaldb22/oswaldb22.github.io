@@ -10,6 +10,7 @@ import lora400 from "@fontsource/lora/files/lora-latin-400-normal.woff2";
 import lora600 from "@fontsource/lora/files/lora-latin-600-normal.woff2";
 import { ViewTransitions } from "astro:transitions";
 import { SITE } from "@consts";
+import OpenPanel from "./OpenPanel.astro";
 
 interface Props {
   title: string;
@@ -64,7 +65,8 @@ const { title, description, image = "/nano.png" } = Astro.props;
 <ViewTransitions  />
 
 <!-- Umami Analytics -->
-<script defer src="https://cloud.umami.is/script.js" data-website-id="d96803a9-8602-4732-9f71-39bac0dd778b"></script>
+<script is:inline defer src="https://cloud.umami.is/script.js" data-website-id="d96803a9-8602-4732-9f71-39bac0dd778b"></script>
+<OpenPanel />
 
 <script>
   import type { TransitionBeforeSwapEvent } from "astro:transitions/client";
